@@ -1,5 +1,5 @@
-# mirror-fashion
-Repositório para projeto Mirror Fashion com o intuito de aprender mais sobre HTML, CSS e JS.
+# Mirror Fashion
+Repositório para projeto desenvolvido no curso "Desenvolvimento Web com HTML, CSS e JavaScript" da Caelum.
 
-## créditos
-https://www.caelum.com.br/download/caelum-html-css-javascript.pdf
+## Créditos
+Página do curso: https://www.caelum.com.br/curso-html-css-javascript
