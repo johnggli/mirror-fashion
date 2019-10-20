@@ -7,3 +7,5 @@ Link do site: https://johnemerson1406.github.io/mirror-fashion/
 
 ## Créditos
 Página do curso: https://www.caelum.com.br/curso-html-css-javascript
+
+Link para o pdf: https://www.caelum.com.br/download/caelum-html-css-javascript.pdf
