@@ -101,3 +101,37 @@ label[for=azul]::after {
 .cores label::after {
     cursor: pointer;
 }
+
+@media (min-width: 630px) {
+    .produto {
+        position: relative;
+        padding-left: 40%;
+
+        font-size: 1.2em;
+    }
+
+    .cores {
+        position: static;
+        padding: 0;
+    }
+
+    .cores legend {
+        position: static;
+    }
+
+    .cores label img {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        max-width: 35%;
+        max-height: 100%;
+    }
+
+    .cores label::after {
+        position: static;
+        float: left;
+
+        margin-right: 10px;
+    }
+}
