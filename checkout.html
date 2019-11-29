@@ -70,6 +70,30 @@
                     </label>
                 </div>
             </fieldset>
+
+            <fieldset>
+                <legend>Cartão de crédito</legend>
+
+                <div class="form-group">
+                    <label for="numero-cartao">Número - CVV</label>
+                    <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                </div>
+
+                <div class="form-group">
+                    <label for="bandeira-cartao">Bandeira</label>
+                    <select class="custom-select" id="bandeira-cartao">
+                        <option disabled selected>Selecione uma opção...</option>
+                        <option value="master">Mastercard</option>
+                        <option value="visa">VISA</option>
+                        <option value="amex">American Express</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="validade-cartao">Validade</label>
+                    <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+                </div>
+            </fieldset>
         </form>
     </div>
 
