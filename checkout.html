@@ -20,87 +20,93 @@
     </div>
 
     <div class="container">
-        <div class="card mb-3">
-            <div class="card-header">
-                Sua Compra
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        Sua Compra
+                    </div>
+            
+                    <div class="card-body">
+                        <img src="img/produtos/foto1-verde.png" alt="Fuzzy Cardigan"
+                        class="img-thumbnail mb-3">
+                        <dl>
+                            <dt>Produto</dt>
+                            <dd>Fuzzy Cardigan</dd>
+                    
+                            <dt>Cor</dt>
+                            <dd>Verde</dd>
+                    
+                            <dt>Tamanho</dt>
+                            <dd>40</dd>
+                    
+                            <dt>Preço</dt>
+                            <dd>R$ 129,90</dd>
+                        </dl>
+                    </div>
+                </div>
             </div>
+
+            <form class="col-md-8">
+                <div class="row">
+                    <fieldset class="col-lg-6">
+                        <legend>Dados pessoais</legend>
+        
+                        <div class="form-group">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" class="form-control" id="nome" name="nome" autofocus required>
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="cpf">CPF</label>
+                            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                        </div>
+            
+                        <div class="form-group custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="newsletter"
+                            value="sim" checked>
+                            <label class="custom-control-label" for="newsletter">
+                                Quero receber Newsletter da Mirror Fashion
+                            </label>
+                        </div>
+                    </fieldset>
+        
+                    <fieldset class="col-lg-6">
+                        <legend>Cartão de crédito</legend>
+        
+                        <div class="form-group">
+                            <label for="numero-cartao">Número - CVV</label>
+                            <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="bandeira-cartao">Bandeira</label>
+                            <select class="custom-select" id="bandeira-cartao">
+                                <option disabled selected>Selecione uma opção...</option>
+                                <option value="master">Mastercard</option>
+                                <option value="visa">VISA</option>
+                                <option value="amex">American Express</option>
+                            </select>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="validade-cartao">Validade</label>
+                            <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+                        </div>
+                    </fieldset>
+                </div>
     
-            <div class="card-body">
-                <img src="img/produtos/foto1-verde.png" alt="Fuzzy Cardigan"
-                class="img-thumbnail mb-3">
-                <dl>
-                    <dt>Produto</dt>
-                    <dd>Fuzzy Cardigan</dd>
-            
-                    <dt>Cor</dt>
-                    <dd>Verde</dd>
-            
-                    <dt>Tamanho</dt>
-                    <dd>40</dd>
-            
-                    <dt>Preço</dt>
-                    <dd>R$ 129,90</dd>
-                </dl>
-            </div>
+                <button type="submit" class="btn btn-primary btn-lg">
+                    <span class="oi oi-thumb-up"></span>
+                    Confirmar Pedido
+                </button>
+            </form>
         </div>
-
-        <form>
-            <fieldset>
-                <legend>Dados pessoais</legend>
-
-                <div class="form-group">
-                    <label for="nome">Nome completo</label>
-                    <input type="text" class="form-control" id="nome" name="nome" autofocus required
-                </div>
-    
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
-                </div>
-    
-                <div class="form-group">
-                    <label for="cpf">CPF</label>
-                    <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
-                </div>
-    
-                <div class="form-group custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="newsletter"
-                    value="sim" checked>
-                    <label class="custom-control-label" for="newsletter">
-                        Quero receber Newsletter da Mirror Fashion
-                    </label>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Cartão de crédito</legend>
-
-                <div class="form-group">
-                    <label for="numero-cartao">Número - CVV</label>
-                    <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
-                </div>
-
-                <div class="form-group">
-                    <label for="bandeira-cartao">Bandeira</label>
-                    <select class="custom-select" id="bandeira-cartao">
-                        <option disabled selected>Selecione uma opção...</option>
-                        <option value="master">Mastercard</option>
-                        <option value="visa">VISA</option>
-                        <option value="amex">American Express</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="validade-cartao">Validade</label>
-                    <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
-                </div>
-            </fieldset>
-
-            <button type="submit" class="btn btn-primary btn-lg">
-                <span class="oi oi-thumb-up"></span>
-                Confirmar Pedido
-            </button>
-        </form>
     </div>
 
 </body>
