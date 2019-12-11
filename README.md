@@ -1,11 +1,11 @@
 # Mirror Fashion
-Repositório para projeto desenvolvido no curso "Desenvolvimento Web com HTML, CSS e JavaScript" da Caelum.
+Project developed during the course "Web Development with HTML, CSS and JavaScript" from Caelum.
 
-Projeto ainda em andamento.
+Project still in progress.
 
-Link do site: https://johnemerson1406.github.io/mirror-fashion/
+Website Link: https://johnemerson1406.github.io/mirror-fashion/
 
-## Créditos
-Página do curso: https://www.caelum.com.br/curso-html-css-javascript
+## Credits
+Course Page: https://www.caelum.com.br/curso-html-css-javascript
 
-Link para o pdf: https://www.caelum.com.br/download/caelum-html-css-javascript.pdf
+Link to the pdf: https://www.caelum.com.br/download/caelum-html-css-javascript.pdf
