@@ -14,11 +14,11 @@ label[for=verde]::after {
 }
 
 label[for=rosa]::after {
-    background-color: #ff6666;
+    background-color: #ff6677;
 }
 
 label[for=azul]::after {
-    background-color: #6666ff;
+    background-color: #6677ff;
 }
 
 .cores input:checked + label::after {
