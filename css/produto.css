@@ -102,6 +102,10 @@ label[for=azul]::after {
     cursor: pointer;
 }
 
+.comprar {
+    cursor: pointer;
+}
+
 @media (min-width: 630px) {
     .produto {
         position: relative;
@@ -158,7 +162,6 @@ label[for=azul]::after {
     margin: 1em 0;
     font-size: 1em;
     line-height: 1.5;
-    max-width: 36em;
 }
 
 @media (min-width: 500px) {
@@ -192,6 +195,16 @@ tr:nth-child(2n) {
 
 td:first-child {
     font-style: italic;
+}
+
+.produto-back {
+    background-color: #f2f2f2;
+	margin-top: 1em;
+	border-top: 2px solid #ccc;
+}
+
+.cores label img {
+	border: 2px solid #ccc;
 }
 
 .tamanhos output {
