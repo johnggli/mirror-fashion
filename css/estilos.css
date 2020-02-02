@@ -34,7 +34,7 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+    margin: 8px auto;
     width: 940px;
 }
 
@@ -142,6 +142,9 @@ header {
     color: #333;
     font-size: 14px;
     text-align: center;
+}
+
+a {
     text-decoration: none;
 }
 
