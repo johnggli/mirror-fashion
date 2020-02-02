@@ -86,7 +86,6 @@ label[for=azul]::after {
 .comprar {
     background: #91bd3c;
     border: none;
-    color: #333;
 
     font-size: 1.4em;
     text-transform: uppercase;
@@ -217,4 +216,9 @@ td:first-child {
     border: 3px solid #667;
     border-radius: 50%;
     color: #555;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
 }
