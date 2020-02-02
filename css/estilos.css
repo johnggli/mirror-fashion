@@ -337,3 +337,29 @@ footer .container {
 .painel-aberto li:nth-child(n+7) {
     display: inline-block;
 }
+
+.painel button {
+    /* posicionamento */
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+
+    /* estilo */
+    background-color: #333;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(30, 30, 30, 0.5);
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: 1px 0 1px black;
+
+    /* animação */
+    transition: 0.3s;
+}
+
+.painel button:hover {
+    cursor: pointer;
+    background-color: #464646;
+    box-shadow: 1px 0 20px rgba(200, 200, 120, 0.9);
+}
