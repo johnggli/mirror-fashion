@@ -31,6 +31,7 @@
 body {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
 }
 
 .container {
@@ -136,6 +137,14 @@ header {
     margin-bottom: 10px;
 
     text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.8);
+
+    font-family: "PT Sans", sans-serif;
+}
+
+.painel h2:before {
+    content: '\2756';
+    padding-right: 5px;
+    opacity: 0.4;
 }
 
 .painel a {
@@ -223,7 +232,8 @@ footer .container {
 }
 
 .menu-departamentos li li a::before {
-    content: '- ';
+    content: '\272a';
+    padding-right: 3px;
 }
 
 .busca {
