@@ -1,5 +1,5 @@
 <h1 align="center">:dress: Mirror Fashion</h1>
-<p align="center">Project developed during the course <strong>Web Development with HTML, CSS and JavaScript</strong> from Caelum</p>
+<p align="center">Project of e-commerce developed during the course <strong>Web Development with HTML, CSS and JavaScript</strong> from Caelum.</p>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/JohnEmerson1406/mirror-fashion">
